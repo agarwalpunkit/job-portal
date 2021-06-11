@@ -20,8 +20,8 @@
                 </div>
             </div>
             <div class="job-content-right">
-                <div class="company_logo">
-                    <img [src]="job.logoPath" alt="'Company Logo'">
+                <div class="company_logo" [class.hide]="!job.logoPath">
+                    <img [src]="job.logoPath" alt="Company Logo" title="Company Logo">
                 </div>
                 <div class="job_apply">
                     <button class="apply_button">

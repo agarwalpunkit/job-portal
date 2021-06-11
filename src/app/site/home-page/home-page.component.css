@@ -195,6 +195,14 @@
   margin-bottom: 100px;
 }
 
+.hide {
+  overflow: hidden;
+}
+
+.company_logo img[alt] {
+  margin-left: -16px;
+}
+
 .job_apply {
   display: flex;
   flex-direction: row;
